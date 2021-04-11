@@ -14,7 +14,7 @@
  *
  * @param {string} value1
  * @param {string} value2
- * @return {string}
+ * @return {string} 
  *
  * @example
  *   'aa', 'bb' => 'aabb'
@@ -22,7 +22,7 @@
  *   '',  'bb'  => 'bb'
  */
 function concatenateStrings(value1, value2) {
-    throw new Error('Not implemented');
+    return value1.concat(value2);
 }
 
 
